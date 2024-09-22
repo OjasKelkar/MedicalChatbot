@@ -50,22 +50,7 @@ Leveraging Google Gemini Pro, the chatbot analyzes the symptoms and suggests pos
 The chatbot can read and interpret health reports, especially laboratory and diagnostic reports, enhancing its diagnostic ability by cross-referencing with user-provided symptoms.
 
 Project Structure
-bash
-Copy code
-gastro-medical-chatbot/
-│
-├── app.py                # Main entry point of the Streamlit app
-├── utils/
-│   ├── symptom_analysis.py  # Symptom analysis logic
-│   ├── report_reader.py     # Health report parsing and analysis
-│   └── ...
-├── models/
-│   └── google_gemini.py    # Google Gemini integration
-├── data/
-│   └── sample_reports/     # Example health reports for testing
-├── .env                    # API keys and environment variables
-├── README.md               # This README file
-└── requirements.txt        # Project dependencies
+
 Tech Stack
 Frontend: Streamlit
 AI Model: Google Gemini Pro
